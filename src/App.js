@@ -1,5 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
+import Navbar from './components/Navbar';
+import TextForm from './components/TextForm';
+import About from './components/About';
 
 
 let name="aman"
@@ -37,7 +40,7 @@ function App() {
     // <div classNameName='blank'>Lovely</div>
 
     <>
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
+    {/* <nav className="navbar navbar-expand-lg navbar-light bg-light">
   <a className="navbar-brand" href='/'>TextUtils</a>
   <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span className="navbar-toggler-icon"></span>
@@ -58,9 +61,14 @@ function App() {
       <button className="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
     </form>
   </div>
-</nav> 
-    </>
+</nav>  */}
 
+{/* <Navbar/> */}
+  <Navbar title='TextUtils'/>
+  <div className='container my-3'>
+    <TextForm heading="Enter the text to analyze below"/>
+  {/* <About/> */}
+  </div></>
   );
 }
 
