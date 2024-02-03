@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/TextUtils-React/static/css/main.54b94fa9.css",
+    "main.js": "/TextUtils-React/static/js/main.4c3bafbd.js",
+    "static/js/787.fb9a5fa6.chunk.js": "/TextUtils-React/static/js/787.fb9a5fa6.chunk.js",
+    "index.html": "/TextUtils-React/index.html",
+    "main.54b94fa9.css.map": "/TextUtils-React/static/css/main.54b94fa9.css.map",
+    "main.4c3bafbd.js.map": "/TextUtils-React/static/js/main.4c3bafbd.js.map",
+    "787.fb9a5fa6.chunk.js.map": "/TextUtils-React/static/js/787.fb9a5fa6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.54b94fa9.css",
+    "static/js/main.4c3bafbd.js"
+  ]
+}
